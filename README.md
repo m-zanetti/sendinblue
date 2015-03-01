@@ -1,7 +1,7 @@
 Sendinblue API w. support for Laravel
 ---
 
-The package supports use with the [Laravel framework][1] (v4) providing a `SendinblueWrapper` facade.
+The package supports use with the [Laravel framework][1] v4.x or v5.x providing a `SendinblueWrapper` facade.
 
 ----
 
@@ -64,10 +64,14 @@ Furthermore, add the following the the `aliases` array:
 
 Run the command `composer update`.
 
-Publish the configuration
+Publish the configuration:
 
 ```sh
+// Laravel v4.x
 $ php artisan config:publish vansteen/sendinblue
+
+// Laravel v5.x
+$ php artisan vendor:publish
 ```
 
 ----
