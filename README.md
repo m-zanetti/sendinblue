@@ -7,7 +7,7 @@ The package supports use with the [Laravel framework][1] (v4) providing a `Sendi
 
 ###Setup:
 
-In order to install, add the following `repositories` block (Why? Because the current official SendinBlue package doesn't fully respect the PSR-0 standard)
+In order to install, add the following `repositories` block (Why? It is just a trick to fix a path problem due to the current official SendinBlue package which doesn't fully respect the PSR-0 standard)
 
 ```js
     "repositories": [
