@@ -77,7 +77,8 @@ $ php artisan vendor:publish
 
 ###Usage:
 
-Your unique Sendinblue API key should be set in the package's config found in `app/config/packages/vansteen/sendinblue/config.php`
+Your unique Sendinblue API key should be set in the package's config found in `app/config/packages/vansteen/sendinblue/config.php` (Laravel 4)
+`config/sendinblue.php` (Laravel 5)
 
 Methods of the Sendinblue API class work as described by the Sendinblue API docs found [Here][2]. Thanks to Laravel's use of the "Facade" design pattern, all methods may be called in the following manner:
 
