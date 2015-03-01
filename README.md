@@ -40,8 +40,7 @@ Then add the following to your `composer.json` file within the `require` block:
 }
 ```
 
-Within Laravel, locate the file `..app/config/app.php` *.
-
+Within Laravel, locate the file `..config/app.php`.
 Add the following to the `providers` array:
 
 ```php
