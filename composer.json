@@ -1,6 +1,6 @@
 {
     "name": "vansteen/sendinblue",
-    "description": "A Laravel 4 wrapper for the SendInBlue API PHP class (as provided by SendInBlue)",
+    "description": "A Laravel 5 (and Laravel 4) wrapper for the SendInBlue API PHP class (as provided by SendInBlue)",
     "keywords": ["laravel", "sendinblue"],
     "license": "MIT",
     "authors": [
