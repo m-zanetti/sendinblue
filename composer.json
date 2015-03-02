@@ -18,6 +18,5 @@
         "psr-0": {
             "Vansteen\\Sendinblue\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
