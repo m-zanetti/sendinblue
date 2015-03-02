@@ -9,27 +9,9 @@
             "email": "tom@vansteen.me"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "vansteen/mailin-api-php",
-                "version": "dev-master",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mailin-api/mailin-api-php.git",
-                    "reference": "origin/master"
-                },
-                "autoload": {
-                    "files": ["V2.0/mailin.php"]
-                }
-            }
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.*|5.*",
-        "vansteen/mailin-api-php": "dev-master"
+        "illuminate/support": "4.*|5.*"
     },
     "autoload": {
         "psr-0": {
