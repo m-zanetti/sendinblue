@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Config;
-use SendinBlue\Mailin;
+use Sendinblue\Mailin;
 
 class SendinblueServiceProvider extends ServiceProvider {
 

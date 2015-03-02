@@ -1,6 +1,6 @@
 <?php namespace Vansteen\Sendinblue;
 
-use SendinBlue\Mailin;
+use Sendinblue\Mailin;
 
 /**
  * Class SendinblueWrapper

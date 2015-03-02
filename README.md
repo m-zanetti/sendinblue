@@ -7,34 +7,11 @@ The package supports use with the [Laravel framework][1] v4.x or v5.x providing 
 
 ###Setup:
 
-In order to install, add the following `repositories` block (Why? It is just a trick to fix a path problem due to the current official SendinBlue package which doesn't fully respect the PSR-0 standard)
-
-```js
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "vansteen/mailin-api-php",
-                "version": "dev-master",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mailin-api/mailin-api-php.git",
-                    "reference": "origin/master"
-                },
-                "autoload": {
-                    "files": ["V2.0/mailin.php"]
-                }
-            }
-        }
-    ],
-```
-
-Then add the following to your `composer.json` file within the `require` block:
+In order to install, add the following to your `composer.json` file within the `require` block:
 
 ```js
 "require": {
     …
-    "vansteen/mailin-api-php": "dev-master",
     "vansteen/sendinblue": "dev-master"
     …
 }
