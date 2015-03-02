@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.*|5.*"
+        "illuminate/support": "4.*|5.*",
+        "mailin-api/mailin-api-php": "dev-master"
     },
     "autoload": {
         "psr-0": {
